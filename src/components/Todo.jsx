@@ -15,7 +15,7 @@ function Todo(props) {
   }
 
   return (
-    <div className="card">
+    <div className="card2">
       <h2>{props.text}</h2>
       <div className="actions">
         {" "}
@@ -23,9 +23,7 @@ function Todo(props) {
           Remove From Cart
         </button>
       </div>
-      {modalIsOpen && (
-        <Modal onClick={closeModalHandler} />
-      )}
+      {modalIsOpen && <Modal onClick={closeModalHandler} />}
       {modalIsOpen && <Backdrop onClick={closeModalHandler} />}
     </div>
   );
