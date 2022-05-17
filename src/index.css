@@ -81,7 +81,7 @@ h1, h2 {
   z-index: 10;
   position: fixed;
   top: 20vh;
-  left: calc(50% - 15rem);
+  left: calc(70% - 15rem);
 }
 .darkBG {
   background-color: rgba(0, 0, 0, 0.2);
