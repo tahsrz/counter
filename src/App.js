@@ -1,13 +1,11 @@
 import "./App.css";
 import logo from "./assets/logo.svg";
 import Todo from "./components/Todo";
-//import NavbarElements from "./components/Navbar/NavbarElements";
-//import Navbar from "./components/Navbar";
+import Sol from "./components/Sol";
 import "bootstrap/dist/css/bootstrap.css";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 function App() {
-  //var Navbar = "";
   const title = "Welcome To The Bookstore";
   const likes = "9238642";
   const max = 10000;
@@ -57,6 +55,12 @@ function App() {
           <Todo text="War and Peace by Leo Tolstoy" />{" "}
         </div>
       </div>
+      <p>
+        <Sol text="Vanilla Frappucino" />
+        <Sol text="Chocolate Frappucino"/>
+        <Sol text="Cinnamon Frappucino"/>
+        <Sol text="Mint Chocolate Chip Frappucino"/>
+      </p>
     </div>
   );
 }
